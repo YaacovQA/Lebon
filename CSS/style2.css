@@ -1,0 +1,76 @@
+body{
+	background-image: src("images/pexels-hasan-albari-1229861.jpg") ;
+	font-family: serif;
+	background-color:#F7CAC9;
+}
+img{
+	width:100px;
+	border-radius:50%;
+	height:50px;
+	
+}
+h1{
+	text-align:center;
+}
+h2{
+	text-decoration-line:underline;
+}
+.skill .name{
+	display:flex;
+	flex-direction:column;
+	color:#6d7587;
+	font:2em;
+	font-weight:400;
+	
+}
+.skill{
+	display:flex;
+}
+.skill .name span{
+	
+	margin:10px 0;
+	border:10px 20px;
+	text-align:center;
+	border-radius:50px;
+	border:5px solid #ebecf0;
+	box-shadow:  9.91px 9.91px 15px #D9DADE,
+	-9.91px -9.91px 15px #FFFFFF;
+}
+.skill .name span:hover{
+	box-shadow: inset 9.91px 9.91px 15px #D9DADE,
+	inset -9.91px -9.91px 15px #FFFFFF;
+	
+}
+.bar{
+	height:30px;
+	width:400px;
+	background-color:red;
+	margin:10px;
+	display:flex;
+flex-direction:column;
+
+}
+.bar-container{
+display:flex;
+flex-direction:column;
+justify-content:space-around;
+}
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+width: 100%; /* Full width */
+background-color: #ddd; /* Grey background */
+}
+
+.skills {
+text-align: right; /* Right-align text */
+padding-top: 10px; /* Add top padding */
+padding-bottom: 10px; /* Add bottom padding */
+color: white; /* White text color */
+}
+
+.html {width: 90%; background-color: #92A8D1;} 
+.css {width: 80%; background-color: #92A8D1;} 
+.Linux {width: 80%; background-color: #92A8D1;} 

@@ -1,0 +1,174 @@
+/* Styles précédents */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin-top: 0;
+  color: #333333;
+  font-size: 36px;
+  text-align: center;
+}
+
+.nav {
+  background-color: #333333;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.nav a {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 10px 20px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav a:hover {
+  background-color: #555555;
+}
+
+.nav a.active {
+  background-color: #555555;
+}
+
+.section {
+  margin-bottom: 30px;
+}
+
+.section-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+.section-content {
+  margin-bottom: 20px;
+}
+
+.section-content p {
+  margin-bottom: 10px;
+  color: #555555;
+}
+
+.section-content ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  color: #555555;
+}
+
+.skill-label {
+  font-weight: bold;
+  color: #333333;
+}
+
+.progress {
+  background-color: #eeeeee;
+  border-radius: 4px;
+  height: 20px;
+  margin-bottom: 5px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 100%;
+  text-align: center;
+  color: #ffffff;
+  font-weight: bold;
+  background: linear-gradient(to right, #007bff, #007bff 80%, #eeeeee 80%);
+}
+
+.experience-item {
+  margin-bottom: 20px;
+}
+
+.experience-item h3 {
+  margin: 0 0 5px;
+  color: #333333;
+  font-size: 20px;
+}
+
+.experience-item p {
+  margin: 0;
+  color: #555555;
+}
+
+.education-item {
+  margin-bottom: 20px;
+}
+
+.education-item h3 {
+  margin: 0 0 5px;
+  color: #333333;
+  font-size: 20px;
+}
+
+.education-item p {
+  margin: 0;
+  color: #555555;
+}
+
+.projects-item {
+  margin-bottom: 20px;
+}
+
+.projects-item h3 {
+  margin: 0 0 5px;
+  color: #333333;
+  font-size: 20px;
+}
+
+.projects-item p {
+  margin: 0;
+  color: #555555;
+}
+
+.languages-item {
+  margin-bottom: 10px;
+}
+
+.languages-item .language {
+  font-weight: bold;
+  color: #333333;
+}
+
+.languages-item .level {
+  color: #555555;
+}
+
+.interests-item {
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  border-radius: 4px;
+  background-color: #eeeeee;
+  color: #333333;
+}
+
+.links-item {
+  margin-bottom: 10px;
+}
+
+.links-item a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.links-item a:hover {
+  text-decoration: underline;
+}

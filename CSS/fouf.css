@@ -1,0 +1,30 @@
+.progress-bar {
+  background-color: #f2f2f2;
+  border-radius: 4px;
+  height: 20px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  width: 50%;
+}
+
+.progress {
+  background-color: #dcdcdc;
+  height: 100%;
+  transition: width 0.5s ease-in-out;
+}
+
+.percentage {
+  position: relative;
+  color: #555555;
+  font-size: 12px;
+  padding: 2px;
+}
+
+.percentage::before {
+  content: attr(data-percentage);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
